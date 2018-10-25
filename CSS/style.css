@@ -151,3 +151,22 @@ p {
 	padding: 8px;
 	margin-top:20px;
 }
+
+@media (max-width:720px) {
+	.container {
+        width:400px;
+	}
+}
+
+@media (max-width:968px) {
+	.container {
+        width:750px;
+	}
+}
+
+@media (max-width:540px) {
+	.container {
+        width:300px;
+	}
+}
+
