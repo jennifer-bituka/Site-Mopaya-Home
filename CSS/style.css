@@ -91,7 +91,8 @@ h3 {
 .resa {
 	display:flex;
 	flex-direction: column;
-	align-items: space-between;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .form-resa-maison {
@@ -141,6 +142,7 @@ h3 {
 	color:white;
 	border:1px solid grey;
 	width: 400px;
+	align-items: center;
 }
 .footer {
 	background-color:#fff5bc;
