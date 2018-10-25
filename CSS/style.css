@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Amiri:400,700|Charmonman:400,700");
+@import url("components/footer.css");
+@import url("components/navbar.css");
 @import url("images");
 
 body {
@@ -9,7 +11,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position : center; 
+    background-position : center;
+    margin:0px; 
 }
 
 a {
@@ -49,25 +52,6 @@ p {
 	color:black;
 }
 
-.menu{
-	margin-top: 0;
-    text-align: center;
-    letter-spacing: 44px;
-	text-align: center;
-	background-color:#fff5bc;
-	padding:0px;
-	margin:6px;
-	font-size:22px;	
-}
-
-.menu li {
-	list-style-type: none;
-	display:inline;
-	font-weight: 10px;
-	letter-spacing:0px;
-	text-align:center;
-}
-
 .btn {
 	margin:4px 120;
 	padding:3px auto;
@@ -89,6 +73,8 @@ p {
 
 .form {
 	display:flex;
+	justify-content: space-evenly;
+	
 }
 
 .resa {
@@ -149,14 +135,7 @@ p {
     margin-right: 190px;
     margin-left: 190px;
 }
-.footer {
-	background-color:#fff5bc;
-	font-weight: bold;
-	text-align:center;
-	padding:0px;
-	margin:6px;
-	font-size: 30px;
-}
+
 
 #header-phrase{
 	text-align: center;
