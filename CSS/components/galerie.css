@@ -2,4 +2,9 @@
 	display:flex;
 	justify-content: space-between;
 	display:center;
+	margin:60px;
+	flex-wrap: wrap;
+}
+.col-xs-12 col-sm-6 col-md-3 {
+	flex-wrap: wrap;
 }
