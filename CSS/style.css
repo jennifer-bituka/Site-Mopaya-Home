@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Amiri:400,700|Charmonman:400,700");
+@import url("images");
+
+body {
+	font-family:'Amiri';
+	font-size:16px;
+	background-image:url("http://www.lacapuciine.com/wp-content/uploads/2017/05/palmier-iphone6-lacapuciine.jpg");
+	background-position:fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position : center; 
+}
+
+a {
+	text-decoration: none;
+	color: #2a4739;
+}
+
+
+h1 {
+	font-family:'Charmonman';
+	font-size :86px;
+	text-align:center;
+	position:relative;
+	margin:0px;
+	line-height:150px;
+}
+
+h3 {
+	text-align: center;
+	font-size:26px;
+}
+
+
+
+.header{
+	background-color:rgb(255, 255, 255, 50%);
+	border: 1px solid #75777a;
+	border-radius:1px;
+	background-size:cover;
+	background-position: center;
+	width:950px;
+	margin: 0px auto;
+	padding:6px;
+	color:black;
+}
+
+.menu{
+	margin-top: 0;
+    text-align: center;
+    letter-spacing: 44px;
+	text-align: center;
+	background-color:#fff5bc;
+	padding:0px;
+	margin:6px;
+	font-size:22px;	
+}
+
+.menu li {
+	list-style-type: none;
+	display:inline;
+	font-weight: 10px;
+	letter-spacing:0px;
+	text-align:center;
+}
+
+.btn {
+	margin:4px 120;
+	padding:3px auto;
+}
+
+.intro {
+	padding:0px;
+	margin:6px;
+}
+
+.bloc {
+    background-color:rgb(255, 255, 255, 70%);
+    margin:60px;
+    padding:2px;
+}
+
+#city {
+}
+
+.form {
+	display:flex;
+}
+
+.resa {
+	display:flex;
+	flex-direction: column;
+	align-items: space-between;
+}
+
+.form-resa-maison {
+	background-color:white;
+    align-items: center;
+	padding: 20px;
+	border: 1px solid #75777a;
+	margin:8px;
+	width:300px;
+	text-align:center;
+	border-radius:1px;
+}
+
+.form-resa-maison img {
+	width: 45px;
+	float:left;
+}
+.form-resa-maison h4 {
+    flex-grow: 1;
+    padding-left: 20px;
+    position: center;
+    margin-right:40px;
+}
+
+.form-resa-flat {
+	background-color:white;
+    align-items: center;
+	padding: 20px;
+	border: 1px solid #75777a;
+	margin:8px;
+	width:300px;
+	text-align:center;
+	border-radius:1px;
+}
+
+.form-resa-flat img {
+	width: 45px;
+	float:left;
+}
+.form-resa-flat h4 {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+.btn-selection {
+	background-color: #2a4739;
+	color:white;
+	border:1px solid grey;
+	width: 400px;
+}
+.footer {
+	background-color:#fff5bc;
+	font-weight: bold;
+	text-align:center;
+	padding:0px;
+	margin:6px;
+	font-size: 30px;
+}
+
+#header-phrase{
+	text-align: center;
+
+}
+
+.form-intro {
+	text-align:center;
+}
