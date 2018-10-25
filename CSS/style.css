@@ -4,7 +4,7 @@
 body {
 	font-family:'Amiri';
 	font-size:16px;
-	background-image:url("http://www.lacapuciine.com/wp-content/uploads/2017/05/palmier-iphone6-lacapuciine.jpg");
+	background-image: url("http://www.lacapuciine.com/wp-content/uploads/2017/05/palmier-iphone6-lacapuciine.jpg");
 	background-position:fixed;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -32,6 +32,9 @@ h3 {
 	font-size:26px;
 }
 
+p {
+	font-size:18px;
+}
 
 
 .header{
@@ -91,7 +94,7 @@ h3 {
 .resa {
 	display:flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -141,8 +144,10 @@ h3 {
 	background-color: #2a4739;
 	color:white;
 	border:1px solid grey;
-	width: 400px;
-	align-items: center;
+	margin:120px 250px;
+	margin: 10px;
+    margin-right: 190px;
+    margin-left: 190px;
 }
 .footer {
 	background-color:#fff5bc;
@@ -158,6 +163,6 @@ h3 {
 
 }
 
-.form-intro {
+#form-intro {
 	text-align:center;
 }
