@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Amiri:400,700|Charmonman:400,700");
 @import url("components/footer.css");
 @import url("components/navbar.css");
+@import url("components/galerie.css");
 @import url("images");
 
 body {
@@ -74,7 +75,7 @@ p {
 .form {
 	display:flex;
 	justify-content: space-evenly;
-	
+
 }
 
 .resa {
@@ -145,3 +146,4 @@ p {
 #form-intro {
 	text-align:center;
 }
+
