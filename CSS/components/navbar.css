@@ -1,0 +1,21 @@
+.navbar{
+	margin-top: 0;
+    text-align: center;
+    /*letter-spacing: 44px;*/
+	text-align: center;
+	background-color:#fff5bc;
+	padding:0px;
+	margin:6px;
+	font-size:22px;
+	display: flex;
+	/*justify-content: space-around;*/
+	justify-content: space-evenly;
+}
+
+.navbar li {
+	list-style-type: none;
+	display:inline;
+	font-weight: 10px;
+	letter-spacing:0px;
+	text-align:center;
+}
