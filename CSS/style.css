@@ -147,3 +147,7 @@ p {
 	text-align:center;
 }
 
+.city img {
+	padding: 8px;
+	margin-top:20px;
+}
