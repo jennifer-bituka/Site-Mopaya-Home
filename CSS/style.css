@@ -3,6 +3,7 @@
 @import url("components/navbar.css");
 @import url("components/galerie.css");
 @import url("images");
+@import url("container.css");
 
 body {
 	font-family:'Amiri';
@@ -13,7 +14,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position : center;
-    margin:0px; 
+    
 }
 
 a {
@@ -89,7 +90,7 @@ p {
 .form-resa-maison {
 	background-color:white;
     align-items: center;
-	padding: 20px;
+	padding: 10px;
 	border: 1px solid #75777a;
 	margin:8px;
 	width:300px;
@@ -111,7 +112,7 @@ p {
 .form-resa-flat {
 	background-color:white;
     align-items: center;
-	padding: 20px;
+	padding: 10px;
 	border: 1px solid #75777a;
 	margin:8px;
 	width:300px;
